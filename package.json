@@ -38,5 +38,8 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.0.2",
 		"eslint": "^6.7.2"
+	},
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
 	}
 }
