@@ -6,7 +6,9 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "node test",
+		"test": "npm run tests-only",
+		"posttest": "npx aud"
 	},
 	"repository": {
 		"type": "git",
@@ -37,7 +39,9 @@
 	"homepage": "https://github.com/inspect-js/has-typed-arrays#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.0.2",
-		"eslint": "^6.7.2"
+		"array.prototype.some": "^1.1.0",
+		"eslint": "^6.7.2",
+		"tape": "^4.11.0"
 	},
 	"funding": {
 		"url": "https://github.com/sponsors/ljharb"
