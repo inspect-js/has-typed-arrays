@@ -1,0 +1,36 @@
+{
+	"name": "has-typed-arrays",
+	"version": "0.0.0",
+	"description": "Does this environment have JS Typed Arrays?",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/has-typed-arrays.git"
+	},
+	"keywords": [
+		"typed array",
+		"typed arrays",
+		"TypedArrays",
+		"js",
+		"Float32Array",
+		"Float64Array",
+		"Int8Array",
+		"Uint8Array",
+		"Uint8ClampedArray",
+		"Int16Array",
+		"Uint16Array",
+		"Int32Array",
+		"Uint32Array",
+		"BigInt64Array",
+		"BigUint64Array"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/has-typed-arrays/issues"
+	},
+	"homepage": "https://github.com/inspect-js/has-typed-arrays#readme"
+}
