@@ -3,6 +3,11 @@
 	"version": "0.0.0",
 	"description": "Does this environment have JS Typed Arrays?",
 	"main": "index.js",
+	"exports": {
+		".": [{
+			".": "./index.js"
+		}, "./index.js"]
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -39,11 +44,14 @@
 	"homepage": "https://github.com/inspect-js/has-typed-arrays#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.0.2",
-		"array.prototype.some": "^1.1.0",
 		"eslint": "^6.7.2",
 		"tape": "^4.11.0"
 	},
 	"funding": {
 		"url": "https://github.com/sponsors/ljharb"
+	},
+	"dependencies": {
+		"array.prototype.some": "^1.1.0",
+		"which-typed-array": "^1.1.0"
 	}
 }
