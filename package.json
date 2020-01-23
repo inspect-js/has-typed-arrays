@@ -59,7 +59,7 @@
 		"url": "https://github.com/sponsors/ljharb"
 	},
 	"dependencies": {
-		"array.prototype.some": "^1.1.0",
+		"array.prototype.some": "^1.1.1",
 		"which-typed-array": "^1.1.0"
 	},
 	"auto-changelog": {
