@@ -1,6 +1,6 @@
 {
 	"name": "has-typed-arrays",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Does this environment have JS Typed Arrays?",
 	"main": "index.js",
 	"exports": {
