@@ -9,7 +9,8 @@
 				".": "./index.js"
 			},
 			"./index.js"
-		]
+		],
+		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"prepublish": "safe-publish-latest",
