@@ -63,7 +63,7 @@
 	},
 	"dependencies": {
 		"array.prototype.some": "^1.1.3",
-		"which-typed-array": "^1.1.7"
+		"which-typed-array": "^1.1.8"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
