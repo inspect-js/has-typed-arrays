@@ -11,7 +11,7 @@ test('export', function (t) {
 });
 
 test('Typed Arrays', function (t) {
-	var anyExist = some([
+	var anyExist = some(/** @type {import('..').TypedArrayName[]} */ [
 		'Float32Array',
 		'Float64Array',
 		'Int8Array',
@@ -23,7 +23,7 @@ test('Typed Arrays', function (t) {
 		'Uint32Array',
 		'BigInt64Array',
 		'BigUint64Array'
-	], function (TA) {
+	], /** @param {import('..').TypedArrayName} TA */ function (TA) {
 		return typeof global[TA] === 'function';
 	});
 

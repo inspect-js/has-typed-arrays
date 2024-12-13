@@ -3,6 +3,7 @@
 var some = require('array.prototype.some');
 var whichTypedArray = require('which-typed-array');
 
+/** @type {import('.').TypedArrayName[]} */
 var typedArrays = [
 	'Float32Array',
 	'Float64Array',
@@ -18,7 +19,7 @@ var typedArrays = [
 ];
 
 module.exports = function hasTypedArrays() {
-	return some(typedArrays, function (TA) {
-		return whichTypedArray(new global[TA]());
+	return some(typedArrays, /** @param {import('.').TypedArrayName} TA */ function (TA) {
+		return !!whichTypedArray(new global[TA]());
 	});
 };
