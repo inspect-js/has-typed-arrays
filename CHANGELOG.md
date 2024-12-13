@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/inspect-js/has-typed-arrays/compare/v1.0.1...v1.1.0) - 2024-12-12
+
+### Commits
+
+- [actions] reuse common workflows [`fba789a`](https://github.com/inspect-js/has-typed-arrays/commit/fba789a9e6e424ec09b342237797191443e32fa5)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`2c40555`](https://github.com/inspect-js/has-typed-arrays/commit/2c40555b7d07bbbe69c4e6c407cdf80897e11819)
+- [New] add types [`42e29a8`](https://github.com/inspect-js/has-typed-arrays/commit/42e29a8a57ce641e74bb3b5a09358e129e7751fa)
+- [actions] split out node 10-20, and 20+ [`682e854`](https://github.com/inspect-js/has-typed-arrays/commit/682e854a40af82ddcdae02340551eab5037b421a)
+- [readme] add github actions/codecov badges; update URLs [`c71aba0`](https://github.com/inspect-js/has-typed-arrays/commit/c71aba0f65fe31b99ac9cbc669423683549a1a30)
+- [actions] update codecov uploader [`fa08fec`](https://github.com/inspect-js/has-typed-arrays/commit/fa08fecc2a92741ced8a542eb820760f244c8d35)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`8a1d0cd`](https://github.com/inspect-js/has-typed-arrays/commit/8a1d0cdb43575b6e4e183413e81e3eb9ec83a9ae)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`398db16`](https://github.com/inspect-js/has-typed-arrays/commit/398db1693f2134bceb4710a90b450bdf2a8e818a)
+- [actions] update rebase action to use reusable workflow [`5e4437f`](https://github.com/inspect-js/has-typed-arrays/commit/5e4437f45d1e98933d109a067d69f4b37d7e8ea5)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `safe-publish-latest`, `tape` [`8ef826f`](https://github.com/inspect-js/has-typed-arrays/commit/8ef826f923ec864cce99b69ab90c2a6284b6c3fb)
+- [meta] use `npmignore` to autogenerate an npmignore file [`18027ef`](https://github.com/inspect-js/has-typed-arrays/commit/18027ef05d6b31cb96a2661da83db93c1856b3e7)
+- [Dev Deps] update `@ljharb/eslint-config`, `auto-changelog`, `npmignore`, `tape` [`b5702d9`](https://github.com/inspect-js/has-typed-arrays/commit/b5702d9d424b735e09f1cfe58169f4f1ed2d3934)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`7a946ab`](https://github.com/inspect-js/has-typed-arrays/commit/7a946ab75410ee7da17baff781145f6d7672b76d)
+- [Deps] update `array.prototype.some`, `which-typed-array` [`574ee8e`](https://github.com/inspect-js/has-typed-arrays/commit/574ee8ee67372e8e9b59e55e0ee02801a09d6985)
+- [Deps] update `array.prototype.some`, `which-typed-array` [`ac4a936`](https://github.com/inspect-js/has-typed-arrays/commit/ac4a936e1e540c8bda91bb0e20953536eef2e36e)
+- [meta] add missing `engines.node` [`657e3fb`](https://github.com/inspect-js/has-typed-arrays/commit/657e3fbd78a13091e55842678ea997d779f65086)
+- [Tests] replace `aud` with `npm audit` [`098b9c0`](https://github.com/inspect-js/has-typed-arrays/commit/098b9c01f550b4a58e038ce7a5727305aa5546d7)
+- [meta] use `prepublishOnly` script for npm 7+ [`d7d149a`](https://github.com/inspect-js/has-typed-arrays/commit/d7d149a63d88c4c4f02df1d3b00f6bd108844b6e)
+- [Deps] update `which-typed-array` [`1420c22`](https://github.com/inspect-js/has-typed-arrays/commit/1420c22570cc24ef355b69902251d0bf961ecc9f)
+- [actions] update workflows [`fa3d2bb`](https://github.com/inspect-js/has-typed-arrays/commit/fa3d2bb86f4dd7560cdef6caa2ddc05844b2e8f2)
+- [Dev Deps] add missing peer dep [`0401eee`](https://github.com/inspect-js/has-typed-arrays/commit/0401eee74d2d18887c90e71e0b06b61bc9d8f162)
+
 ## [v1.0.1](https://github.com/inspect-js/has-typed-arrays/compare/v1.0.0...v1.0.1) - 2020-12-05
 
 ### Commits
