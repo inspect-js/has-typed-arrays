@@ -70,6 +70,9 @@
 		"array.prototype.some": "^1.1.6",
 		"which-typed-array": "^1.1.16"
 	},
+	"engines": {
+		"node": ">= 0.4"
+	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
 		"template": "keepachangelog",
