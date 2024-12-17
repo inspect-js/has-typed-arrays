@@ -1,7 +1,7 @@
-import whichTypedArray from 'which-typed-array';
+import { type TypedArrayName } from 'which-typed-array';
 
 declare namespace hasTypedArrays {
-    type TypedArrayName = whichTypedArray.TypedArrayName;
+    export type { TypedArrayName }
 }
 
 declare function hasTypedArrays(): boolean;
